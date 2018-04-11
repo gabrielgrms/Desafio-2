@@ -1,0 +1,5 @@
+db:mysql
+host:HOST
+dbname:DBNAME
+username:USERNAME
+password:PASSWORD
