@@ -13,7 +13,7 @@
 		  <thead class="thead-dark">
 		    <tr>
 		      <th scope="col">#</th>
-		      <th scope="col">Name</th>
+		      <th scope="col">Nome</th>
 		      <th scope="col">Empresa</th>
 		      <th scope="col">Deletar</th>
 		      <th scope="col">Editar</th>

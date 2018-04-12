@@ -1,7 +1,7 @@
 <form action="../../controllers/CondomController.php" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Nome</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="condom[name]" placeholder="Nome" value="<?= !empty($_GET['id']) ? $condom->getName() : "" ?>">
+    <input type="text" class="form-control" id="exampleInputEmail1" name="condom[name]" placeholder="Nome" value="<?= !empty($_GET['id']) ? $condom->getName() : '' ?>">
   </div>
   <div class="form-group">
     <label for="companies">Empresas</label>
@@ -10,7 +10,7 @@
       	<?php if(isset($_GET['id']) && ($company->getId() == $condom->getCompany_id())): ?>
       		<option selected value="<?= $company->getId() ?>"> <?php echo $company->getName() ?> </option>
       	<?php endif; ?>
-      	<?php if(!isset($_GET['id'])): ?>
+      	<?php if(!isset($_GET['id']) || ($company->getId() != $condom->getCompany_id())): ?>
       		<option value="<?= $company->getId() ?>"> <?php echo $company->getName() ?> </option>
       	<?php endif; ?>
       <?php endforeach; ?>
