@@ -1,0 +1,6 @@
+SMTPHost:smtp.gmail.com
+SMTPauth:true
+username:noreplygoulart@gmail.com
+password:Infojrufba
+SMTPsecure:ssl
+Port:465
