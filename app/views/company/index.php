@@ -25,7 +25,7 @@
 		      <td><?= $company->getName(); ?></td>
 		      <td><?= $company->getCnpj(); ?></td>
 		      <td><a href= "../../controllers/CompaniesController.php?action=delete&id=<?=$company->getId()?>" ><button type="button" class="btn btn-danger">Deletar</button> </a></td>
-		      <td><a href= "update.php?id=<?= $company->getId() ?>" ><button type="button" class="btn btn-danger">Editar</button> </a></td>
+		      <td><a href= "update.php?id=<?= $company->getId() ?>" ><button type="button" class="btn btn-warning">Editar</button> </a></td>
 		    </tr>
 		  <?php endforeach; ?>
 		  </tbody>

@@ -27,7 +27,7 @@
 		      <td><?= $condom->getName(); ?></td>
 		      <td><?= $company->getName(); ?></td>
 		      <td><a href= "../../controllers/CondomController.php?action=delete&id=<?=$condom->getId()?>" ><button type="button" class="btn btn-danger">Deletar</button> </a></td>
-		      <td><a href= "update.php?id=<?= $condom->getId() ?>" ><button type="button" class="btn btn-danger">Editar</button> </a></td>
+		      <td><a href= "update.php?id=<?= $condom->getId() ?>" ><button type="button" class="btn btn-warning">Editar</button> </a></td>
 		    </tr>
 		  <?php endforeach; ?>
 		  </tbody>

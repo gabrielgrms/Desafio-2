@@ -18,6 +18,7 @@
 		      <th scope="col">Lote</th>
 		      <th scope="col">Deletar</th>
 		      <th scope="col">Editar</th>
+		      <th scope="col">Ligar</th>
 		    </tr>
 		  </thead>
 		  <tbody>
@@ -29,7 +30,8 @@
 		      <td><?= $dweller->getEmail(); ?></td>
 		      <td><?= $allotment->getNumber(); ?></td>
 		      <td><a href= "../../controllers/DwellerController.php?action=delete&id=<?=$dweller->getId()?>" ><button type="button" class="btn btn-danger">Deletar</button> </a></td>
-		      <td><a href= "update.php?id=<?= $dweller->getId() ?>" ><button type="button" class="btn btn-danger">Editar</button> </a></td>
+		      <td><a href= "update.php?id=<?= $dweller->getId() ?>" ><button type="button" class="btn btn-warning">Editar</button> </a></td>
+		      <td><a href= "../../helpers/email.php?id=<?= $dweller->getId() ?>" ><button type="button" class="btn btn-info">Ligar</button> </a></td>
 		    </tr>
 		  <?php endforeach; ?>
 		  </tbody>
