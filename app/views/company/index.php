@@ -5,13 +5,14 @@
 ?>	
 
 <!DOCTYPE html>
+	<title> Empresas </title>
 	<?php include "../header.inc" ?>
-		<h1> Todas as Empresas </h1>
+		<h1> Todas as empresas </h1>
 		<table class="table">
 		  <thead class="thead-dark">
 		    <tr>
 		      <th scope="col">#</th>
-		      <th scope="col">Name</th>
+		      <th scope="col">Nome</th>
 		      <th scope="col">Cnpj</th>
 		      <th scope="col">Deletar</th>
 		      <th scope="col">Editar</th>
