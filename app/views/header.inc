@@ -16,16 +16,16 @@
 	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="../company/companies.php">Empresas</a>
+	        <a class="nav-link" href="../company/index.php">Empresas</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="../allotment/allotments.php">Lotes</a>
+	        <a class="nav-link" href="../allotment/index.php">Lotes</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="../condom/condoms.php">Condomínios</a>
+	        <a class="nav-link" href="../condom/index.php">Condomínios</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="../dweller/dwellers.php">Moradores</a>
+	        <a class="nav-link" href="../dweller/index.php">Moradores</a>
 	      </li>
 	    </ul>
 	  </div>
